@@ -1,0 +1,186 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.main__page {
+  background-image: url("../images/main_img.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1110px;
+  /* padding-left: 405px;
+  padding-right: 405px; */
+  margin: 0 auto;
+  height: 75vh;
+}
+
+.mini__info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 150%;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 33px;
+}
+
+.number {
+  text-align: right;
+}
+
+.navigation__list {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;
+}
+
+.navigation__item {
+  text-align: center;
+  color: white;
+  padding: 13px 101px;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.navigation__item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.main__button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  position: relative;
+  gap: 25px;
+}
+
+button {
+  background: #99862a;
+  color: #fff;
+  padding: 15px 30px;
+  width: 191px;
+  height: 50px;
+  text-transform: uppercase;
+}
+
+.second__page {
+  background-color: #000;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.line {
+  background-color: #fff;
+  width: 160px;
+  height: 2px;
+  margin: 0 auto;
+}
+
+.info2 {
+  box-sizing: border-box;
+  width: 100%;
+  border: 3px solid #c4c4c4;
+  color: #fff;
+  align-items: center;
+  padding-top: 56px;
+}
+
+.title2 {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  padding: 40px 187px 50px 190px;
+}
+
+.wine__logo {
+  padding: 0 475px 64px 475px;
+}
+
+.third__page {
+  background-color: #e6e3c4;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+}
+
+.title3 {
+  border-top: 1px solid #99862a;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000;
+  padding-top: 80px;
+}
+
+.mini-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.line2 {
+  background-color: #99862a;
+  width: 160px;
+  height: 1px;
+}
+
+.text2 {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000;
+  width: 445px;
+  padding-top: 30px;
+}
