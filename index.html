@@ -66,7 +66,7 @@
     </section>
     <section class="new-collection">
       <div class="container new-collection__container">
-        <div class="wine-info-block">
+        <div class="new-collection__wine-info">
           <h2 class="new-collection__title">Новинки колекцій</h2>
           <h3 class="title new-collection__subtitle">
             Березень 1980 <br />
@@ -79,62 +79,64 @@
             deserunt, amet facere quae ratione illo illum hic eligendi
             reprehenderit distinctio eos?
           </p>
-          <ul class="wine-menu">
-            <li class="wine-menu-item">
-              <div class="text wine-menu-age">1980</div>
-              <div class="wine-menu-info__block">
-                <h3 class="title wine-menu-name">
+          <ul class="new-collection__wine-menu">
+            <li class="new-collection__wine-menu__item">
+              <div class="text new-collection__wine-menu__year">1980</div>
+              <div class="new-collection__wine-menu__info">
+                <h3 class="title new-collection__wine-menu__name">
                   Colli Euganei Bianco Ca' Lustra 1980
                 </h3>
-                <p class="text wine-menu-description">
+                <p class="text new-collection__wine-menu__description">
                   Барвисті пляшки вина з Марселя.
                 </p>
               </div>
             </li>
-            <li class="wine-menu-item">
-              <div class="text wine-menu-age">1980</div>
-              <div class="wine-menu-info__block">
-                <h3 class="title wine-menu-name">
+            <li class="new-collection__wine-menu__item">
+              <div class="text new-collection__wine-menu__year">1980</div>
+              <div class="new-collection__wine-menu__info">
+                <h3 class="title new-collection__wine-menu__name">
                   Colli Euganei Bianco Ca' Lustra 1980
                 </h3>
-                <p class="text wine-menu-description">
+                <p class="text new-collection__wine-menu__description">
                   Барвисті пляшки вина з Марселя.
                 </p>
               </div>
             </li>
-            <li class="wine-menu-item">
-              <div class="text wine-menu-age">1980</div>
-              <div class="wine-menu-info__block">
-                <h3 class="title wine-menu-name">
+            <li class="new-collection__wine-menu__item">
+              <div class="text new-collection__wine-menu__year">1980</div>
+              <div class="new-collection__wine-menu__info">
+                <h3 class="title new-collection__wine-menu__name">
                   Colli Euganei Bianco Ca' Lustra 1980
                 </h3>
-                <p class="text wine-menu-description">
+                <p class="text new-collection__wine-menu__description">
                   Барвисті пляшки вина з Марселя.
                 </p>
               </div>
             </li>
           </ul>
-          <p class="text wine-menu__text">
+          <p class="text new-collection__wine-menu__text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ut
             corrupti sed magnam ipsa laboriosam saepe. Dolore laudantium
             deserunt, amet facere quae ratione illo illum hic eligendi
             reprehenderit distinctio eos?
           </p>
-          <button class="learn-more__button">дізнатися більше</button>
+          <button class="new-collection__learn-more__button">
+            дізнатися більше
+          </button>
         </div>
-        <div class="wine-gallery-block">
+        <div class="new-collection__wine-gallery">
           <img
-            class="glass-of-wine"
+            class="glass-of-wine__img"
             src="/images/glass-of-wine.jpg"
             alt="Келих вина"
           />
           <img
-            class="wine-rack"
+            class="wine-rack__img"
             src="/images/wine-rack.jpg"
             alt="Стелаж з вином"
           />
           <img
-            class="types-of-wine"
+            class="types-of-wine__img"
             src="/images/types-of-wine.jpg"
             alt="Види вина"
           />
@@ -148,7 +150,7 @@
           alt="Грона винограду"
           class="degustation__img degustation__img-grapes"
         />
-        <div class="degustation__block-info">
+        <div class="degustation__info">
           <h2 class="title degustation__title">Запис на дегустацію</h2>
           <div class="line degustation__line"></div>
           <p class="text degustation__text">
@@ -158,69 +160,73 @@
             aliquid!
           </p>
           <form class="degustation__form" action="">
-            <input
-              class="degustation__form-element user__name"
-              type="text"
-              placeholder="Ім'я"
-            />
-            <input
-              class="degustation__form-element user__phone"
-              type="tel"
-              placeholder="Телефон"
-            />
-            <input
-              class="degustation__form-element user__address"
-              type="text"
-              placeholder="Адреса"
-            />
+            <div class="degustation__form-inputs">
+              <input
+                class="degustation__form-element form__name"
+                type="text"
+                placeholder="Ім'я"
+              />
+              <input
+                class="degustation__form-element form__phone"
+                type="tel"
+                placeholder="Телефон"
+              />
+              <input
+                class="degustation__form-element form__address"
+                type="text"
+                placeholder="Адреса"
+              />
+            </div>
+            <button class="degustation__button" type="submit">
+              записатись
+            </button>
           </form>
-          <button class="degustation__button" type="submit">записатись</button>
         </div>
         <img
           src="/images/wine-barrel__img.png"
           alt="Бочка вина"
-          class="degustation__img degustation-wine-barrel"
+          class="degustation__img degustation__img-wine-barrel"
         />
       </div>
     </section>
     <footer class="footer">
       <div class="container footer__container">
         <nav class="footer__navigation">
-          <ul class="navigation nav-site">
-            <li class="nav-site__item">
+          <ul class="navigation footer__nav-site">
+            <li class="footer__nav-site__item">
               <a href="">Головна</a>
             </li>
-            <li class="nav-site__item">
+            <li class="footer__nav-site__item">
               <a href="#" class="degustation-nav__link">Каталог</a>
             </li>
-            <li class="nav-site__item">
+            <li class="footer__nav-site__item">
               <a href="#">Постачальники</a>
             </li>
-            <li class="nav-site__item">
+            <li class="footer__nav-site__item">
               <a href="#" class="nav-site__item__link">Колекції</a>
             </li>
-            <li class="nav-site__item">
+            <li class="footer__nav-site__item">
               <a href="#" class="nav-site__item__link">Дегустація</a>
             </li>
-            <li class="nav-site__item">
+            <li class="footer__nav-site__item">
               <a href="#" class="nav-site__item__link">Колекція 2020</a>
             </li>
-            <li class="nav-site__item">
+            <li class="footer__nav-site__item">
               <a href="#" class="nav-site__item__link">Контакти</a>
             </li>
           </ul>
-          <ul class="navigation nav-service">
-            <li class="nav-service__item">
+          <ul class="navigation footer__nav-service">
+            <li class="footer__nav-service__item">
               <a href="#" class="nav-service__item__link"
                 >винний бутік LE CORTE</a
               >
             </li>
-            <li class="nav-service__item">
+            <li class="footer__nav-service__item">
               <a href="tel:0671234567" class="nav-service__item__link"
                 >(067) 123-45-67</a
               >
             </li>
-            <li class="nav-service__item">
+            <li class="footer__nav-service__item">
               <a href="#" class="nav-service__item__link">
                 <img
                   src="/images/logo-youtube.png"
@@ -234,8 +240,10 @@
                 />
               </a>
             </li>
-            <li class="nav-service__item">
-              <a href="#" class="nav-service__item__link">© le-corte.uA</a>
+            <li class="footer__nav-service__item">
+              <a href="#" class="footer__nav-service__item__link"
+                >© le-corte.uA</a
+              >
             </li>
           </ul>
         </nav>
